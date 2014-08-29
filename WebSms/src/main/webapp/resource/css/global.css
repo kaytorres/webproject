@@ -1,0 +1,147 @@
+body,div,span,object,frame,h1,h2,h3,h4,h5,h6,p,blockquote,a,code,em,img,q,small,strong,dd,dl,dt,li,ol,ul,fieldset,form,label,table,tbody,tr,th,td,input,menu,textarea
+	{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: none repeat scroll 0 0 #FFFFFF;
+	color: #333333;
+	font-family: Tahoma, Verdana, STHeiTi, simsun, sans-serif;
+	font-size: 12px;
+}
+
+textarea {
+	resize: none;
+}
+
+select,label,textarea,input {
+	font-family: 'lucida grande', tahoma, verdana, arial, STHeiTi, simsun,
+		sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	
+	text-decoration: none;
+}
+
+a:visited {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	
+	text-decoration: none;
+}
+
+a:active {
+	color: blue;
+}
+
+.central-wrapper {
+	text-align: center;
+	height:auto;
+}
+
+.central {
+	margin: 0 auto;
+	text-align: left;
+}
+
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: block;
+}
+
+.shadow {
+	
+}
+
+.radius {
+	
+}
+
+.bottom-radius {
+	
+}
+
+.top-radius {
+	
+}
+
+.input-text {
+	vertical-align: middle;
+	line-height: 18px;
+	height: 18px;
+}
+
+.input-button {
+	border: 0;
+	background-image: url("resource/image/button-bg.png");
+}
+
+.input-button:hover {
+	background-image: url("resource/image/button-bg-hover.png");
+}
+
+.input-button:active {
+	background-image: url("resource/image/button-bg-active.png");
+}
+
+.input-checkbox {
+	margin-right: 5px;
+	vertical-align: text-bottom;
+}
+
+.input-radio {
+	margin-right: 5px;
+	vertical-align: text-bottom;
+}
+
+* .placeholder {
+	color: #666;
+}
+
+.arrow-up {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid black;
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid black;
+}
+
+.arrow-right {
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid black;
+}
+
+.arrow-left {
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-right: 5px solid black;
+}

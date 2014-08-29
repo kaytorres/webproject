@@ -1,0 +1,131 @@
+#body {
+    margin: 0 auto;
+    width: 1000px;
+}
+.login-column {
+	background: url("../image/login.png");
+	background-repeat:no-repeat;
+	background-position:center top;
+	width: 1000px;
+	height: 250px;
+}
+.login-background {
+	background: url("../image/loginback.png");
+	width: 305px;
+	height: 350px;
+	margin:-159px 197px;
+} 
+.login-style {
+	width: 300px;
+	height:350px;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#EAF6FE',endColorStr='#6F7478',gradientType='0'); 
+	background:-moz-linear-gradient(top, #EAF6FE, #6F7478); 
+	background:-webkit-linear-gradient(top, #EAF6FE, #6F7478); 
+	background: -o-linear-gradient(top, #EAF6FE, #6F7478);
+	float:right;
+	margin:-160px 198px;
+}
+
+.login-style .title {
+	height: 20px;
+    font-size: 20px;
+	text-align: center;
+	padding: 10px;
+
+}
+.login-panel {
+    padding: 5px 5px 5px;
+    text-align: left;
+}
+.login-panel p {
+    height: 40px; 
+    padding-bottom: 3px;
+}
+p input {
+    border: 1px solid #C9C9C9;
+    border-radius: 3px 3px 3px 3px;
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    padding: 3px;
+    vertical-align: middle;
+    width: 150px;
+}
+p label {
+	text-align: left;
+	width: 80px;
+	float: left;
+	margin-left:5px; 
+	height: 16px;
+    line-height: 16px;
+    padding: 3px;
+}
+.login-button {
+	height: 50px;
+	margin-top: 0px;
+	text-align: center;
+}
+.login-button input {
+    border: 1px solid #C9C9C9;
+    border-radius: 3px 3px 3px 3px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    margin: auto auto 10px;
+    text-align: center;
+    width: 80px;
+    background-color: #EBF7FF;
+}
+.password {
+	letter-spacing: 10px;
+}
+.notice {
+	float: left;
+    font-size: 16px;
+    height: 20px;
+    line-height: 40px;
+    width: 400px;
+    color:black;
+}
+.login-download {
+	float:left;
+	margin:20px 10px;
+	font-size:14px;
+	
+}
+.login-download a {
+color:blue;
+}	
+.manager {
+	letter-spacing: 10px;
+}
+.top {
+	height: 40px;
+}
+.message {
+	text-align: left;
+	width: 300px;
+	float: left;
+	font-size: 14px;
+	margin-left:5px; 
+	height: 40px;
+    line-height: 16px;
+    padding: 3px;
+    color:red;
+  
+	}
+.team {
+    float: left;
+    font-size: 28px;
+    height: 40px;
+    line-height: 40px;
+    width: 400px;
+}
+.company {
+	float: right;
+    font-size: 14px;
+    height: 10px;
+    margin:160px 198px;
+    color:black;
+} 

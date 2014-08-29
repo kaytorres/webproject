@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- Database -->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/sjsms?characterEncoding=UTF-8" />
+		<property name="username" value="root" />
+		<property name="password" value="123456" />
+	</bean>
+	<bean id="sjsms" class="sjsms.service.SjSmsBean" autowire="byName"> </bean>
+	<bean id="business" class="sjsms.service.Business" autowire="byName"> </bean>
+	<bean id="smsRecvManager" class="sjsms.DBservice.SmsRecvManager" autowire="byName"> </bean>
+	<bean id="applicationInfoManager" class="sjsms.DBservice.ApplicationInfoManager" autowire="byName"> </bean>
+	<bean id="smsSendManager" class="sjsms.DBservice.SmsSendManager" autowire="byName"> </bean>
+	<bean id="createSyslog" class="sjsms.service.CreateSyslog" autowire="byName"> </bean>
+	<bean id="syslogManager" class="sjsms.DBservice.SyslogManager" autowire="byName"> </bean>
+	<bean id="sensitiveWordManager" class="sjsms.DBservice.SensitiveWordManager" autowire="byName"> </bean>
+	<bean id="accountInfoManager" class="sjsms.DBservice.AccountInfoManager" autowire="byName"> </bean>
+	<bean id="smsSendStatusManager" class="sjsms.DBservice.SmsSendStatusManager" autowire="byName"> </bean>
+	<bean id="systemUserManager" class="sjsms.DBservice.SystemUserManager" autowire="byName"> </bean>
+	<bean id="smsPreprocessing" class="sjsms.service.SMSPreprocessing" autowire="byName"> </bean>
+	<bean id="smsForApp" class="sjsms.service.SmsForApp" autowire="byName"> </bean>
+	<bean id="telecomWS" class="sjsms.service.TelecomWS" autowire="byName"> </bean>
+	<bean id="smsManager" class="sjsms.service.SmsManager" autowire="byName"> </bean>
+	<bean id="smsStatusChecking" class="sjsms.service.SmsStatusChecking" autowire="byName"> </bean>
+	
+	<bean id="balanceDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+ 	 	<property name="targetObject" ref="smsStatusChecking"/>
+  		<property name="targetMethod" value="taskBalance"/>
+    </bean>
+    <bean id="facbean1" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+  		<property name="triggers">
+  			<list>
+  				<bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+				  	<property name="jobDetail" ref="balanceDetail"/>
+				  	<property name="cronExpression">
+			 	 		<value>0 0/30 * * * ?</value>
+				  	</property>
+		 		 </bean>
+  			</list>
+    	</property>
+    </bean>
+    
+    <bean id="statusDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+ 	 	<property name="targetObject" ref="smsStatusChecking"/>
+  		<property name="targetMethod" value="taskStatus"/>
+    </bean>
+    <bean id="facbean2" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+  		<property name="triggers">
+  			<list>
+  				<bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+				  	<property name="jobDetail" ref="statusDetail"/>
+				  	<property name="cronExpression">
+			 	 		<value>0 0/15 * * * ?</value>
+				  	</property>
+		 		 </bean>
+  			</list>
+    	</property>
+    </bean>
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver" >
+       <property name="maxUploadSize" value="104857600"/>        
+     </bean>
+<!--      <bean id="importSenWord" class="sjsms.service.ImportSenWord" /> -->
+</beans>

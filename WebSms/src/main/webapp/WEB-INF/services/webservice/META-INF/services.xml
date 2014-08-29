@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceGroup>
+	<service name="SjSmsWebService">
+		<description>
+			WebService:Spring POJO Axis2 Service Sample
+		</description>
+		<parameter name="ServiceObjectSupplier">
+			org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier
+		</parameter>
+		<parameter name="SpringBeanName">sjsms</parameter>
+		<excludeOperations>
+			<operation>setBusiness</operation>
+		</excludeOperations>
+		<messageReceivers>
+			<messageReceiver mep="http://www.w3.org/2004/08/wsdl/in-out" class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+		</messageReceivers>
+	</service>
+	
+</serviceGroup>

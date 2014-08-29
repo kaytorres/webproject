@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Uncomment and your base-package here:  -->
+   <context:component-scan
+            base-package="sjsms.web"/>
+
+     <bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" id="handlerMapping"> 
+		<property name="interceptors">                  
+			<list> <bean class="sjsms.interceptor.AuthorizationInterceptor"/> </list> 
+		</property>
+	 </bean>
+	 
+    
+    
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+	        <property name="prefix" value="/WEB-INF/view/"/>
+	        <property name="suffix" value=".jsp"/>
+	</bean>  
+	
+	<bean id="urlMapping"   class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+  		<property name="mappings">
+   			<props>
+   				 <prop key="/MT.do">MT</prop> 
+   				 <prop key="/pushSms.do">pushSms</prop> 
+   				 <prop key="/pushSmsStatus.do">pushSmsStatus</prop> 
+   				   <prop key="/import.do">import</prop>
+   				  <!--  <prop key="/cti/bindSeatToClient.action">cti</prop> -->
+   			</props>
+  		</property>
+    </bean>
+    <!--  <bean id="cti" class="sjsms.service.DoDataToPush" autowire="byName"> 
+    	<property name="methodNameResolver">
+			<bean class="org.springframework.web.servlet.mvc.multiaction.PropertiesMethodNameResolver">
+				<property name="mappings">
+					<props>
+						<prop key="/cti/bindSeatToClient.action">ctiTest</prop>
+					</props>
+				</property>
+			</bean>
+		</property>
+    </bean> -->
+    <bean id="MT" class="sjsms.service.DoDataToPush" autowire="byName"> 
+    	<property name="methodNameResolver">
+			<bean class="org.springframework.web.servlet.mvc.multiaction.PropertiesMethodNameResolver">
+				<property name="mappings">
+					<props>
+						<prop key="/MT.do">sendMT</prop>
+					</props>
+				</property>
+			</bean>
+		</property>
+    </bean>
+    
+    <bean id="pushSms" class="sjsms.service.DoDataToPush" autowire="byName"> 
+    	<property name="methodNameResolver">
+			<bean class="org.springframework.web.servlet.mvc.multiaction.PropertiesMethodNameResolver">
+				<property name="mappings">
+					<props>
+						<prop key="/pushSms.do">sendToPush</prop>
+					</props>
+				</property>
+			</bean>
+		</property>
+    </bean>
+    <bean id="pushSmsStatus" class="sjsms.service.DoDataToPush" autowire="byName"> 
+    	<property name="methodNameResolver">
+			<bean class="org.springframework.web.servlet.mvc.multiaction.PropertiesMethodNameResolver">
+				<property name="mappings">
+					<props>
+						<prop key="/pushSmsStatus.do">pushSmsStatus</prop> 
+					</props>
+				</property>
+			</bean>
+		</property>
+		
+    </bean>
+	   <bean id="import" class="sjsms.service.ImportSenWord" autowire="byName"> 
+    	<property name="methodNameResolver">
+			<bean class="org.springframework.web.servlet.mvc.multiaction.PropertiesMethodNameResolver">
+				<property name="mappings">
+					<props>
+						<prop key="/import.do">importTxt</prop>
+					</props>
+				</property>
+			</bean>
+		</property>
+    </bean>
+</beans>

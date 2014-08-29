@@ -1,0 +1,488 @@
+HTML {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 100%; PADDING-TOP: 0px
+}
+BODY {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TABLE {
+	FONT-SIZE: 100%
+}
+TD {
+	FONT-SIZE: 100%
+}
+TABLE.InfoPanelIndent {
+	MARGIN-TOP: 8px
+}
+TABLE.CodeLabel {
+	MARGIN-TOP: 13px
+}
+TABLE.DemoButton {
+	MARGIN-TOP: 25px
+}
+TD.ActionMainLabel {
+	PADDING-BOTTOM: 6px; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+TD.ActionPanel {
+	PADDING-BOTTOM: 4px; WIDTH: 100%
+}
+TD.InfoPanel {
+	PADDING-LEFT: 24px
+}
+TD.InfoPanelGroupItem {
+	PADDING-LEFT: 30px
+}
+TD.InfoPanelLabel {
+	PADDING-LEFT: 3px
+}
+HR {
+	BORDER-RIGHT-WIDTH: 0px; DISPLAY: block; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 2px; BORDER-TOP: #bbd7dd 1px solid; BORDER-LEFT-WIDTH: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 8px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+P.h1 {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent !important; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; COLOR: #818180; PADDING-TOP: 0px
+}
+P.h2 {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent !important; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; COLOR: #818180; PADDING-TOP: 0px
+}
+P.h3 {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent !important; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; COLOR: #818180; PADDING-TOP: 0px
+}
+H1.DemoHeader {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent !important; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; COLOR: #818180; PADDING-TOP: 0px
+}
+H2.DemoHeader {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent !important; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; COLOR: #818180; PADDING-TOP: 0px
+}
+H3.DemoHeader {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent !important; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; COLOR: #818180; PADDING-TOP: 0px
+}
+P.h2 {
+	MARGIN-TOP: 15px; MARGIN-BOTTOM: 11px; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+P.h3 {
+	MARGIN-TOP: 15px; MARGIN-BOTTOM: 11px; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+
+P.h3 {
+	MARGIN-BOTTOM: 8px; FONT-SIZE: 10px
+}
+PRE {
+	PADDING-BOTTOM: 20px; BACKGROUND-COLOR: #ffffff; MARGIN-TOP: 23px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; FONT-FAMILY: Courier New; MARGIN-BOTTOM: 23px; COLOR: #000000; FONT-SIZE: 13px; PADDING-TOP: 20px
+}
+PRE.NoIndent {
+	BACKGROUND-COLOR: transparent; MARGIN: 0px
+}
+
+SPAN.blue {
+	COLOR: #293acf; FONT-WEIGHT: normal
+}
+SPAN.black {
+	COLOR: #333333
+}
+
+a.link {
+  COLOR: blue; TEXT-DECORATION: none
+}
+
+A:hover {
+  COLOR:#66CC00
+}
+A.link:hover {
+  COLOR: orangered
+}
+
+.Form {
+	PADDING-LEFT: 20px; PADDING-RIGHT: 20px
+}
+
+DIV.Spacer {
+	WIDTH: 1px; HEIGHT: 1px; OVERFLOW: hidden
+}
+
+LABEL.defaultLabel {
+	COLOR: black
+}
+SPAN.defaultLabel {
+	COLOR: black
+}
+
+.dxpControl_Aqua {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT: 9pt 宋体; COLOR: #c7dfff; PADDING-TOP: 2px
+}
+.dxpButton_Aqua {
+	TEXT-ALIGN: center; FONT: 9pt 宋体; WHITE-SPACE: nowrap; COLOR: #394ea2; VERTICAL-ALIGN: middle; TEXT-DECORATION: underline
+}
+.dxpButton_Aqua A {
+	FONT: 9pt 宋体; WHITE-SPACE: nowrap; COLOR: #394ea2; TEXT-DECORATION: underline
+}
+.dxpDisabledButton_Aqua {
+	FONT: 9pt 宋体; COLOR: #000000; TEXT-DECORATION: none
+}
+.dxpPageNumber_Aqua {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT: 9pt Tahoma; COLOR: #3f66a0; VERTICAL-ALIGN: middle; TEXT-DECORATION: underline; PADDING-TOP: 0px
+}
+.dxpPageNumber_Aqua A {
+	FONT: 9pt 宋体; COLOR: #3f66a0; TEXT-DECORATION: underline
+}
+.dxpCurrentPageNumber_Aqua {
+	BORDER-BOTTOM: #ffbd69 1px solid; BORDER-LEFT: #ffbd69 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ffe7a2; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; FONT: 9pt 宋体; COLOR: #000000; BORDER-TOP: #ffbd69 1px solid; BORDER-RIGHT: #ffbd69 1px solid; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.dxpSummary_Aqua {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT: 9pt 宋体; WHITE-SPACE: nowrap; COLOR: #749bca; VERTICAL-ALIGN: middle; PADDING-TOP: 0px
+}
+.dxpSeparator_Aqua {
+	BACKGROUND-COLOR: #a3c0e8
+}
+.dxpDisabled_Aqua {
+	BORDER-BOTTOM-COLOR: #a6a6a6; BORDER-TOP-COLOR: #a6a6a6; COLOR: #a6a6a6; BORDER-RIGHT-COLOR: #a6a6a6; BORDER-LEFT-COLOR: #a6a6a6; CURSOR: default
+}
+
+.dxgvControl_Aqua {
+	BORDER-BOTTOM: #a3c0e8 1px solid; BORDER-LEFT: #a3c0e8 1px solid; BACKGROUND-COLOR: #ffffff; FONT: 9pt 宋体; COLOR: #000000; BORDER-TOP: #a3c0e8 1px solid; CURSOR: default; BORDER-RIGHT: #a3c0e8 1px solid
+}
+.dxgvDisabled_Aqua {
+	BORDER-BOTTOM: #a3c0e8 1px solid; BORDER-LEFT: #a3c0e8 1px solid; BACKGROUND-COLOR: #ffffff; FONT: 9pt 宋体; COLOR: #000000; BORDER-TOP: #a3c0e8 1px solid; CURSOR: default; BORDER-RIGHT: #a3c0e8 1px solid
+}
+.dxgvControl_Aqua .dxpControl_Aqua {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 0px; PADDING-RIGHT: 2px; PADDING-TOP: 6px
+}
+.dxgvControl_Aqua .dxpSummary_Aqua {
+	COLOR: #283b56
+}
+.dxgvDisabled_Aqua {
+	COLOR: gray
+}
+.dxgvControl_Aqua A {
+	COLOR: #3f66a0
+}
+.dxgvControl_Aqua A:hover {
+	COLOR: #f39128
+}
+.dxgvControl_Aqua A:visited {
+	COLOR: #3f66a0
+}
+.dxgvDisabled_Aqua A {
+	COLOR: gray
+}
+.dxgvLoadingPanel_Aqua {
+	
+}
+.dxgvLoadingPanel_Aqua TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.dxgvLoadingPanelStatusBar_Aqua {
+	BACKGROUND-COLOR: transparent; FONT: 12px 宋体
+}
+.dxgvLoadingPanelStatusBar_Aqua TD {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+.dxgvFilterPopupWindow_Aqua {
+	BORDER-BOTTOM: #a3c0e8 1px solid; BORDER-LEFT: #a3c0e8 1px solid; FONT: 9pt 宋体; COLOR: black; BORDER-TOP: #a3c0e8 1px solid; BORDER-RIGHT: #a3c0e8 1px solid
+}
+.dxgvFilterPopupItemsArea_Aqua {
+	BACKGROUND-COLOR: #ffffff; COLOR: black
+}
+.dxgvFilterPopupButtonPanel_Aqua {
+	BORDER-BOTTOM: #aecaf0 1px solid; BORDER-LEFT: #aecaf0 1px solid; BACKGROUND-COLOR: #ecf4fe; FONT: 9pt 宋体; COLOR: #2c4d79; BORDER-TOP: #aecaf0 1px solid; BORDER-RIGHT: #aecaf0 1px solid
+}
+.dxgvFilterPopupItem_Aqua TD.dxgv {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 2px; WHITE-SPACE: nowrap; CURSOR: default; PADDING-TOP: 3px
+}
+.dxgvFilterPopupActiveItem_Aqua TD.dxgv {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 2px; WHITE-SPACE: nowrap; CURSOR: default; PADDING-TOP: 3px
+}
+.dxgvFilterPopupSelectedItem_Aqua TD.dxgv {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 2px; WHITE-SPACE: nowrap; CURSOR: default; PADDING-TOP: 3px
+}
+.dxgvFilterPopupActiveItem_Aqua {
+	BORDER-BOTTOM: #ffbd69 1px solid; BORDER-LEFT: #ffbd69 1px solid; BACKGROUND-COLOR: #ffe7a2; COLOR: black; BORDER-TOP: #ffbd69 1px solid; BORDER-RIGHT: #ffbd69 1px solid
+}
+.dxgvFilterPopupSelectedItem_Aqua {
+	BORDER-BOTTOM: #ffab3f 1px solid; BORDER-LEFT: #ffab3f 1px solid; BACKGROUND-COLOR: #ffbd69; COLOR: black; BORDER-TOP: #ffab3f 1px solid; BORDER-RIGHT: #ffab3f 1px solid
+}
+.dxgvTable_Aqua {
+	BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: #ffffff; BORDER-COLLAPSE: separate !important; FONT: 9pt 宋体; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #4f4f4f; OVERFLOW: hidden; BORDER-LEFT-WIDTH: 0px
+}
+.dxgvInlineEditRow_Aqua {
+	
+}
+.dxgvDataRow_Aqua {
+	height:10px;
+}
+.dxgvInlineEditRow_Aqua TD.dxgv {
+	BORDER-BOTTOM: #a3c0e8 1px solid; BORDER-RIGHT: #a3c0e8 1px solid
+}
+.dxgvDataRowAlt_Aqua {
+	BACKGROUND-COLOR: #f7faff
+}
+.dxgvFilterRow_Aqua {
+	BACKGROUND-COLOR: #dbebff
+}
+.dxgvEditForm_Aqua {
+	BACKGROUND-COLOR: #f7faff
+}
+.dxgvEditForm_Aqua TD.dxgv {
+	BORDER-BOTTOM: #a3c0e8 1px solid; PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 15px
+}
+.dxgvSelectedRow_Aqua {
+	BACKGROUND-COLOR: #ffbd69; COLOR: #000000
+}
+.dxgvFocusedRow_Aqua {
+	BACKGROUND-COLOR: #ffe7a2; COLOR: #000000
+}
+.dxgvSelectedRow_Aqua TD.dxgvCommandColumn_Aqua A {
+	COLOR: #000000
+}
+.dxgvFocusedRow_Aqua TD.dxgvCommandColumn_Aqua A {
+	COLOR: #000000
+}
+.dxgvPreviewRow_Aqua {
+	BACKGROUND-COLOR: #f7faff; COLOR: #000000
+}
+.dxgvDetailCell_Aqua {
+	BORDER-BOTTOM: #e0edff 1px solid; PADDING-BOTTOM: 30px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 2px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 30px
+}
+.dxgvPreviewRow_Aqua TD.dxgv {
+	BORDER-BOTTOM: #e0edff 1px solid; PADDING-BOTTOM: 30px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 2px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 30px
+}
+.dxgvEmptyDataRow_Aqua TD.dxgv {
+	BORDER-BOTTOM: #e0edff 1px solid; PADDING-BOTTOM: 30px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 2px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 30px
+}
+.dxgvPreviewRow_Aqua TD.dxgv {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 20px; PADDING-RIGHT: 15px; PADDING-TOP: 15px
+}
+.dxgvDetailCell_Aqua {
+	PADDING-BOTTOM: 19px; PADDING-LEFT: 0px; PADDING-RIGHT: 19px; PADDING-TOP: 19px
+}
+.dxgvDetailRow_Aqua TD.dxgvIndentCell {
+	BORDER-BOTTOM: #e0edff 1px solid; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.dxgvEmptyDataRow_Aqua {
+	BACKGROUND-COLOR: #eef3ff; COLOR: #4f4f4f
+}
+.dxgvEmptyDataRow_Aqua TD.dxgv {
+	TEXT-ALIGN: center
+}
+.dxgvEditFormDisplayRow_Aqua TD.dxgv {
+	BORDER-BOTTOM: #bed6f6 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP-WIDTH: 0px; OVERFLOW: hidden; BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT: #bed6f6 1px solid; PADDING-TOP: 4px
+}
+.dxgvDataRow_Aqua TD.dxgv {
+	BORDER-BOTTOM: #bed6f6 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP-WIDTH: 0px; OVERFLOW: hidden; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT: #bed6f6 1px solid; BORDER-RIGHT: #bed6f6 1px solid; PADDING-TOP: 4px
+}
+.dxgvDataRowAlt_Aqua TD.dxgv {
+	BORDER-BOTTOM: #bed6f6 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP-WIDTH: 0px; OVERFLOW: hidden; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT: #bed6f6 1px solid; BORDER-RIGHT: #bed6f6 1px solid; PADDING-TOP: 4px
+}
+.dxgvSelectedRow_Aqua TD.dxgv {
+	BORDER-BOTTOM: #bed6f6 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP-WIDTH: 0px; OVERFLOW: hidden; BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT: #bed6f6 1px solid; PADDING-TOP: 4px
+}
+.dxgvFocusedRow_Aqua TD.dxgv {
+	BORDER-BOTTOM: #bed6f6 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP-WIDTH: 0px; OVERFLOW: hidden; BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT: #bed6f6 1px solid; PADDING-TOP: 4px
+}
+.dxgvEditFormDisplayRow_Aqua TD.dxgvCommandColumn_Aqua {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 4px
+}
+.dxgvDataRow_Aqua TD.dxgvCommandColumn_Aqua {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 4px
+}
+.dxgvDataRowAlt_Aqua TD.dxgvCommandColumn_Aqua {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 4px
+}
+.dxgvSelectedRow_Aqua TD.dxgvCommandColumn_Aqua {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 4px
+}
+.dxgvFocusedRow_Aqua TD.dxgvCommandColumn_Aqua {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 4px
+}
+.dxgvEditFormDisplayRow_Aqua {
+	BACKGROUND-COLOR: #ffffff
+}
+.dxgvEditFormDisplayRow_Aqua TD.dxgv {
+	
+}
+.dxgvEditingErrorRow_Aqua {
+	BACKGROUND-COLOR: #f3d6d6; COLOR: #ba1717
+}
+.dxgvEditingErrorRow_Aqua TD.dxgv {
+	BORDER-BOTTOM: #a3c0e8 1px solid; PADDING-BOTTOM: 6px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; WHITE-SPACE: pre-wrap; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 6px
+}
+.dxgvFilterRow_Aqua TD.dxgv {
+	BORDER-BOTTOM: #aecaf0 1px solid; PADDING-BOTTOM: 2px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 2px
+}
+.dxgvGroupRow_Aqua {
+	BACKGROUND-COLOR: #dbebff; COLOR: #4d8ab5
+}
+.dxgvFocusedGroupRow_Aqua {
+	BACKGROUND-COLOR: #ffbd69; COLOR: #010100 !important
+}
+.dxgvGroupRow_Aqua TD.dxgv {
+	BORDER-BOTTOM: #aecaf0 1px solid; BORDER-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; WHITE-SPACE: nowrap; VERTICAL-ALIGN: middle; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 4px
+}
+.dxgvFocusedGroupRow_Aqua TD.dxgv {
+	BORDER-BOTTOM: #aecaf0 1px solid; BORDER-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; WHITE-SPACE: nowrap; VERTICAL-ALIGN: middle; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 4px
+}
+.dxgvFocusedGroupRow_Aqua TD.dxgvIndentCell {
+	BACKGROUND-COLOR: #dbebff; BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #a3c0e8 1px solid
+}
+.dxgvFocusedRow_Aqua TD.dxgvIndentCell {
+	BACKGROUND-COLOR: #dbebff; BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #a3c0e8 1px solid
+}
+.dxgvSelectedRow_Aqua TD.dxgvIndentCell {
+	BACKGROUND-COLOR: #dbebff; BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #a3c0e8 1px solid
+}
+.dxgvFocusedGroupRow_Aqua TD.dxgv {
+	BORDER-BOTTOM: #aecaf0 1px solid
+}
+.dxgvHeaderPanel_Aqua {
+	BORDER-BOTTOM: #a3c0e8 1px solid; PADDING-BOTTOM: 8px; BACKGROUND-COLOR: #e2f0ff; PADDING-LEFT: 3px; PADDING-RIGHT: 4px; COLOR: #283b56; PADDING-TOP: 8px
+}
+.dxgvHeader_Aqua {
+	BACKGROUND-IMAGE: url(gvHeaderBackground.gif); BORDER-BOTTOM: #a3c0e8 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #a3c0e8 1px solid; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #e2f0ff; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap; BACKGROUND-POSITION: 50% top; OVERFLOW: hidden; BORDER-TOP: #a3c0e8 1px solid; CURSOR: pointer; FONT-WEIGHT: normal; BORDER-RIGHT: #a3c0e8 1px solid; PADDING-TOP: 5px; -moz-user-select: none; text-align:center
+}
+.dxgvHeader_Aqua {
+	FONT: 9pt 宋体; COLOR: #283b56
+}
+.dxgvHeader_Aqua TABLE {
+	FONT: 9pt 宋体; COLOR: #283b56
+}
+.dxgvHeader_Aqua TD {
+	WHITE-SPACE: nowrap
+}
+.dxgvCustomization_Aqua {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; OVERFLOW: auto; PADDING-TOP: 0px
+}
+.dxgvPopupEditForm_Aqua {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; OVERFLOW: auto; PADDING-TOP: 0px
+}
+.dxgvGroupPanel_Aqua {
+	BACKGROUND-IMAGE: url(gvGroupPanelBackground.gif); BORDER-BOTTOM: #a3c0e8 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #ecf4fe; PADDING-LEFT: 6px; PADDING-RIGHT: 4px; BACKGROUND-REPEAT: repeat-x; WHITE-SPACE: nowrap; BACKGROUND-POSITION: 50% bottom; COLOR: #94a6be; FONT-SIZE: 9pt; PADDING-TOP: 10px
+}
+.dxgvFooter_Aqua {
+	BACKGROUND-COLOR: #eef3ff; WHITE-SPACE: nowrap
+}
+.dxgvFooter_Aqua TD.dxgv {
+	BORDER-BOTTOM: #a3c0e8 1px solid; PADDING-BOTTOM: 7px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 6px
+}
+.dxgvGroupFooter_Aqua {
+	BACKGROUND-COLOR: #eef3ff; WHITE-SPACE: nowrap
+}
+.dxgvGroupFooter_Aqua TD.dxgv {
+	BORDER-BOTTOM: #a3c0e8 1px solid; PADDING-BOTTOM: 7px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 6px
+}
+.dxgvDataRow_Aqua TD.dxgvIndentCell {
+	BACKGROUND-COLOR: #dbebff; BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #a3c0e8 1px solid
+}
+.dxgvGroupRow_Aqua TD.dxgvIndentCell {
+	BACKGROUND-COLOR: #dbebff; BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #a3c0e8 1px solid
+}
+.dxgvGroupFooter_Aqua TD.dxgvIndentCell {
+	BACKGROUND-COLOR: #dbebff; BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #a3c0e8 1px solid
+}
+.dxgvTitlePanel_Aqua {
+	BORDER-BOTTOM: #a3c0e8 1px solid; TEXT-ALIGN: center; PADDING-BOTTOM: 6px; BACKGROUND-COLOR: #f7faff; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #283b56; FONT-WEIGHT: normal; PADDING-TOP: 5px
+}
+.dxgvTable_Aqua CAPTION {
+	BORDER-BOTTOM: #a3c0e8 1px solid; TEXT-ALIGN: center; PADDING-BOTTOM: 6px; BACKGROUND-COLOR: #f7faff; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #283b56; FONT-WEIGHT: normal; PADDING-TOP: 5px
+}
+.dxgvLoadingDiv_Aqua {
+	FILTER: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1); BACKGROUND-COLOR: gray; opacity: 0.01
+}
+.dxgvStatusBar_Aqua {
+	BACKGROUND-COLOR: #eef3ff; BORDER-TOP: #a3c0e8 1px solid
+}
+.dxgvStatusBar_Aqua TR.dxgv {
+	HEIGHT: 20px
+}
+.dxgvCommandColumn_Aqua {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 0px; PADDING-TOP: 2px
+}
+.dxgvCommandColumn_Aqua A {
+	MARGIN: 0px 3px 0px 0px
+}
+.dxgvCommandColumnItem_Aqua {
+	
+}
+.dxgvEditFormTable_Aqua {
+	PADDING-BOTTOM: 0px; MARGIN: 10px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT: 9pt 宋体; COLOR: #000000; PADDING-TOP: 0px
+}
+.dxgvEditFormCaption_Aqua {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 8px; PADDING-RIGHT: 4px; WHITE-SPACE: nowrap; PADDING-TOP: 4px
+}
+.dxgvInlineEditCell_Aqua {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP: 1px
+}
+.dxgvInlineEditCell_Aqua .dxeButtonEdit_Aqua TD.dxgv {
+	PADDING-LEFT: 1px
+}
+.dxgvInlineEditCell_Aqua .dxeTextBox_Aqua TD.dxgv {
+	PADDING-LEFT: 1px
+}
+.dxgvEditFormCell_Aqua {
+	PADDING-BOTTOM: 4px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 4px
+}
+.dxgvFilterBar_Aqua {
+	BACKGROUND: #b7d7ff; BORDER-TOP: #a3c0e8 1px solid
+}
+.dxgvFilterBar_Aqua A {
+	COLOR: #283b56; TEXT-DECORATION: underline
+}
+.dxgvFilterBar_Aqua A:hover {
+	COLOR: #f39128
+}
+.dxgvFilterBarCheckBoxCell_Aqua {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 7px; PADDING-TOP: 0px
+}
+.dxgvFilterBarImageCell_Aqua {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 1px; CURSOR: hand; PADDING-TOP: 0px
+}
+.dxgvFilterBarExpressionCell_Aqua {
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 0px; PADDING-RIGHT: 5px; WHITE-SPACE: nowrap; FONT-SIZE: 9pt; PADDING-TOP: 5px
+}
+.dxgvFilterBarClearButtonCell_Aqua {
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; FONT-SIZE: 9pt; PADDING-TOP: 5px
+}
+.dxgvFilterBuilderMainArea_Aqua {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: white; PADDING-TOP: 6px
+}
+.dxgvFilterBuilderButtonArea_Aqua {
+	PADDING-BOTTOM: 6px; BACKGROUND-COLOR: #eef3ff; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; BORDER-TOP: #a3c0e8 1px solid; PADDING-TOP: 6px
+}
+.dxgvPagerBottomPanel_Aqua {
+	BACKGROUND-IMAGE: url(gvPagerBottomPanelBackground.gif); PADDING-BOTTOM: 4px; BACKGROUND-COLOR: #ffffff; BACKGROUND-REPEAT: repeat-x; PADDING-TOP: 4px
+}
+.dxgvPagerTopPanel_Aqua {
+	BACKGROUND-IMAGE: url(gvPagerBottomPanelBackground.gif); PADDING-BOTTOM: 4px; BACKGROUND-COLOR: #ffffff; BACKGROUND-REPEAT: repeat-x; PADDING-TOP: 4px
+}
+
+
+table.teStyleTable{WIDTH: 100%; BORDER-COLLAPSE: collapse; EMPTY-CELLS: show;border:0; cellSpacing:0; cellPadding:0 }
+table.teStyleTableie6{height:450px BORDER-COLLAPSE: collapse; EMPTY-CELLS: show;border:0; cellSpacing:0; cellPadding:0 }
+
+.select_color {
+	background-color: #7A96DF;
+}
+.td-top-hidden {
+	border-top: none;
+}
+A {
+    color: blue;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+a.link {
+    color: blue;
+    text-decoration: none;
+}
+A:hover {
+    color: orange;
+}
+A.link:hover {
+    color: orangered;
+}

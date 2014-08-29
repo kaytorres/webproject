@@ -1,0 +1,174 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sj</groupId>
+  <artifactId>SJSMS</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+   <build>
+            <directory>target</directory>
+                <finalName>sjsms</finalName>
+                <plugins>
+               <plugin>
+    <groupId>org.apache.tomcat.maven</groupId>
+    <artifactId>tomcat6-maven-plugin</artifactId>
+    <version>2.0</version>
+    <configuration>
+					        <uriEncoding>UTF-8</uriEncoding>
+				    </configuration>
+			</plugin>
+			</plugins>
+        </build>
+<dependencies>
+
+  <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.0</version>
+      <scope>test</scope>
+    </dependency>
+    
+     <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-core</artifactId>
+        <version>3.1.0.RELEASE</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.codehaus.jackson</groupId>
+        <artifactId>jackson-mapper-asl</artifactId>
+        <version>1.7.1</version>
+    </dependency>
+    
+
+  	<dependency>
+  		<groupId>com.h2database</groupId>
+  		<artifactId>h2</artifactId>
+  		<version>1.3.170</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework.data</groupId>
+  		<artifactId>spring-data-jpa</artifactId>
+  		<version>1.4.2.RELEASE</version>
+  	</dependency>
+  	
+  	
+<dependency>
+   <groupId>org.apache.axis2</groupId>
+   <artifactId>axis2-kernel</artifactId>
+   <version>1.6.2</version>
+  </dependency>
+  <dependency>
+   <groupId>org.apache.axis2</groupId>
+   <artifactId>axis2-transport-http</artifactId>
+   <version>1.6.2</version>
+  </dependency>
+  <dependency>
+   <groupId>org.apache.axis2</groupId>
+   <artifactId>axis2-transport-local</artifactId>
+   <version>1.6.2</version>
+  </dependency>
+  <dependency>
+   <groupId>org.apache.axis2</groupId>
+   <artifactId>axis2-jaxws</artifactId>
+   <version>1.6.2</version>
+  </dependency>
+  <dependency>
+   <groupId>org.apache.axis2</groupId>
+   <artifactId>axis2-adb</artifactId>
+   <version>1.6.2</version>
+  </dependency>
+  <dependency>
+   <groupId>org.apache.axis2</groupId>
+   <artifactId>axis2-xmlbeans</artifactId>
+   <version>1.6.2</version>
+  </dependency>
+  <dependency>
+   <groupId>org.apache.axis2</groupId>
+   <artifactId>axis2-jibx</artifactId>
+   <version>1.6.2</version>
+  </dependency>
+  <dependency>
+   <groupId>org.apache.axis2</groupId>
+   <artifactId>axis2-soapmonitor-servlet</artifactId>
+   <version>1.6.2</version>
+  </dependency>
+  <dependency>
+   <groupId>org.apache.axis2</groupId>
+   <artifactId>axis2-spring</artifactId>
+   <version>1.6.2</version>
+  </dependency>
+  <!-- axis2 -->
+  
+  	
+  	<dependency>
+  		<groupId>com.owtelse.codec</groupId>
+  		<artifactId>base64</artifactId>
+  		<version>1.0.6</version>
+  	</dependency>
+
+  	<!--<dependency>
+  		<groupId>jexcelapi</groupId>
+  		<artifactId>jxl</artifactId>
+  		<version>2.6</version>
+  	</dependency>-->
+
+  	<dependency>
+  		<groupId>org.apache.httpcomponents</groupId>
+  		<artifactId>httpclient</artifactId>
+  		<version>4.0.3</version>
+  	</dependency>
+
+  	<dependency>
+  		<groupId>commons-collections</groupId>
+  		<artifactId>commons-collections</artifactId>
+  		<version>3.1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>opensymphony</groupId>
+  		<artifactId>quartz-all</artifactId>
+  		<version>1.6.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>jexcelapi</groupId>
+  		<artifactId>jxl</artifactId>
+  		<version>2.6</version>
+  	</dependency>
+    
+  	<dependency>
+  		<groupId>javax.xml.rpc</groupId>
+  		<artifactId>javax.xml.rpc-api</artifactId>
+  		<version>1.1.1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.axis</groupId>
+  		<artifactId>axis</artifactId>
+  		<version>1.4</version>
+  	</dependency>
+
+  	<dependency>
+  		<groupId>commons-discovery</groupId>
+  		<artifactId>commons-discovery</artifactId>
+  		<version>20040218.194635</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-web</artifactId>
+  		<version>3.1.0.RELEASE</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework.boot</groupId>
+  		<artifactId>spring-boot</artifactId>
+  		<version>1.0.2.RELEASE</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>commons-fileupload</groupId>
+  		<artifactId>commons-fileupload</artifactId>
+  		<version>1.2.2</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>commons-io</groupId>
+  		<artifactId>commons-io</artifactId>
+  		<version>2.1</version>
+  	</dependency>
+</dependencies> 
+ </project>
